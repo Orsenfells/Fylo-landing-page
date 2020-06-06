@@ -1,0 +1,62 @@
+body {
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 400;
+    margin: 0;
+    padding: left;
+}
+*, *::before, *::after {
+    box-sizing: border-box;
+}
+h1, a{
+    font-family: 'Raleway', sans-serif;
+    color: hsl(243, 87%, 12%);
+}
+h1 {
+    font-size: 1.7em;
+}
+button {
+    color: white;
+    background: #3065f9;
+    border: none;
+    border-radius: 3px;
+    font-weight: bold;
+}
+nav div a {
+    font-weight: 400;
+    text-decoration: none;   
+    margin-right: 2.5em;
+}
+header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-top: 2em;
+    margin-left: 2em;
+    margin-bottom: 5em;
+}
+.main-1 {
+    display: flex;
+}
+.main-1 div {
+    margin-top: 1em;
+    margin-left: 2.5em;
+}
+ button {
+    margin-left: 1em;
+    width: 14.7em;
+    height: 3.4em;
+    /* padding: 0.9em 4.6em 0.9em 4.6em */
+}
+.main-1 div input {
+    width: 21em;
+    height: 3.3em;
+}
+.main-1 img  {
+    position: relative;
+    bottom: 2em;
+    margin-right: 2em
+}
+.main-1 div p {
+    margin-right: 9em;
+    font-size: .9em;
+}
