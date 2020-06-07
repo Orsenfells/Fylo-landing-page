@@ -56,7 +56,28 @@ header {
     bottom: 2em;
     margin-right: 2em
 }
-.main-1 div p {
+ p {
     margin-right: 9em;
     font-size: .9em;
+}
+.main-2 p {
+    max-width: 30em;
+}
+.main-2 {
+    display: flex;
+    background-color: #f9f8fe;
+    padding-top: 6em;
+    padding-bottom: 5em;
+    border-top-left-radius: 60em 3.5em;
+    border-top-right-radius: 60em 3.5em;
+    margin-top: 100px;
+
+}
+.main-2 div {
+    margin-left: 2.5em;
+}
+.main-2 img {
+    max-width: 500px;
+    margin-left: 1em;
+    margin-top: 2em;
 }
