@@ -57,7 +57,9 @@ header {
 .main-1 img  {
     position: relative;
     bottom: 2em;
-    margin-right: 2em
+    margin-right: 2em;
+    max-width: 500px;
+    max-height: 500px;
 }
 .main-1 > div > p, .main-2 > div > p {
     margin-right: 9em;
@@ -127,4 +129,30 @@ header {
 .testimonial > p {
     font-size: 9px;
     margin: 0;
+}
+.main-3 {
+    background-color: #575989;
+    color: white;
+    display: flex;
+    padding: 2em;
+}
+.main-3 > div > p {
+    max-width: 30em;
+    color: white;
+    font-size: .9em;
+}
+.bottom-email {
+    text-align: center;
+    align-self: center;
+    margin: auto;
+}
+.main-3 > div > input {
+    width: 30em;
+    height: 3.4em;
+    margin-bottom: 14px;
+}
+.main-3 > div > button {
+    margin-left: 0;
+    position: relative;
+    right: 7.7em;
 }
