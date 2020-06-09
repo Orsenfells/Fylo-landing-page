@@ -153,6 +153,37 @@ header {
 }
 .main-3 > div > button {
     margin-left: 0;
+    
+    display: block;
+}
+.bottom-info {
+    background-color: #07043b;
+    color: white;
+    height: 17em;
+    
+}
+.info-container{
+    display: flex;
+    margin-top: 60px;
+}
+.bottom-logo{
+    filter: brightness(0) invert(1);
     position: relative;
-    right: 7.7em;
+    top: 4em;
+    left: 2.5em;
+}
+
+.bottom-info ul {
+    list-style: none;
+    font-size: .8em;
+}
+.info-container ul li {
+    
+    margin-bottom: 8px;
+}
+.info-container ul {
+    margin-right: 12em
+}
+.bottom-icons {
+    width: 1em;
 }
