@@ -14,6 +14,9 @@ h1, a{
 h1 {
     font-size: 1.7em;
 }
+p {
+    color: hsl(243, 87%, 12%);
+}
 button {
     color: white;
     background: #3065f9;
@@ -56,7 +59,7 @@ header {
     bottom: 2em;
     margin-right: 2em
 }
- p {
+.main-1 > div > p, .main-2 > div > p {
     margin-right: 9em;
     font-size: .9em;
 }
@@ -73,11 +76,55 @@ header {
     margin-top: 100px;
 
 }
-.main-2 div {
+.main-2 > div {
     margin-left: 2.5em;
 }
-.main-2 img {
+.main-2 > img {
     max-width: 500px;
+    max-height: 500px;
     margin-left: 1em;
     margin-top: 2em;
+}
+.main-2 a {
+    color: #0cc26d;
+    text-decoration: none;
+    border-bottom: solid 1px #0cc26d;
+    padding-bottom: 4px;
+}
+.arrow-image {
+    position: relative;
+    top: 4px;
+}
+.quote-box {
+    background-color: white;
+    max-width: 16em;
+    border-radius: .5em;
+    box-shadow: 0.3em 0.3em 1em rgba(0,0,0,0.1);
+}
+.quote-box > div {
+    margin-top: 15px;
+    padding: 15px;
+}
+.quote-box p {
+    font-size: 10px;
+}
+.avatar {
+    width: 30px;
+    height: 30px;
+    border-radius: 100%;
+    position: relative;
+    top: 2.5px;
+    display: inline-block;
+}
+.testimonial {
+    display: inline-block;
+}
+.testimonial > h6 {
+    margin: 0;
+    color:  hsl(243, 87%, 12%);
+    font-family: 'Raleway', sans-serif;
+}
+.testimonial > p {
+    font-size: 9px;
+    margin: 0;
 }
