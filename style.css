@@ -191,7 +191,7 @@ header {
 .bottom-icons {
     width: 1em;
 }
-@media screen and (max-width: 375px) {
+@media screen and (max-width: 740px) {
     
     nav div a {
         margin-right: 1em;
