@@ -25,6 +25,7 @@ button {
     font-weight: bold;
 }
 nav div a {
+    font-family: 'Open Sans', sans-serif;
     font-weight: 400;
     text-decoration: none;   
     margin-right: 2.5em;
@@ -36,6 +37,9 @@ header {
     margin-top: 2em;
     margin-left: 2em;
     margin-bottom: 5em;
+}
+.logo-top {
+    max-width: 126px;
 }
 .main-1 {
     display: flex;
@@ -88,9 +92,9 @@ header {
     margin-top: 2em;
 }
 .main-2 a {
-    color: #0cc26d;
+    color: #3c9e8d;
     text-decoration: none;
-    border-bottom: solid 1px #0cc26d;
+    border-bottom: solid 1px #3c9e8d;
     padding-bottom: 4px;
 }
 .arrow-image {
@@ -159,7 +163,7 @@ header {
 .bottom-info {
     background-color: #07043b;
     color: white;
-    height: 17em;
+    min-height: 17em;
     
 }
 .info-container{
@@ -186,4 +190,67 @@ header {
 }
 .bottom-icons {
     width: 1em;
+}
+@media screen and (max-width: 375px) {
+    
+    nav div a {
+        margin-right: 1em;
+    }
+    .logo-top {
+        max-width: 80px;
+    }
+    .main-1, .main-2 {
+        flex-direction: column-reverse;
+    }
+    .main-3 {
+        flex-direction: column;
+        text-align: center;
+    }
+    .info-container {
+        flex-direction: column;
+    }
+    .main-1 img, .main-2 img {
+        max-width: 325px;
+        left: 2em;
+    }
+    .main-1 div {
+        margin: 0;
+        text-align: center;
+    }
+    .main-1 > div > p {
+        margin-right: 0;
+        margin: 2em;
+    }
+    .main-1 > div > input, .main-1 > div > button {
+        margin: 0;
+        width: 25em;
+    }
+    .main-2 > div > h1 {
+        font-size: 1em;
+        text-align: center;
+    }
+    .main-2 > div > p, .main-2 > div {
+        margin-left: 0;
+        margin-right: 0;
+    }
+    .main-2 > div {
+        margin-left: 1em;
+        margin-right: 1em;
+    }
+    .main-2 a {
+        margin-left: 8em;
+        font-size: .8em;
+    }
+    .main-2 img {
+        left: .2em;
+    }
+    .main-2 .quote-box {
+        margin-left: 2.4em;
+    }
+    .main-3 input {
+        max-width: 22.7em;
+    }
+    .main-3 button {
+        width: 22.7em
+    }
 }
